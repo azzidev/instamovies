@@ -1,0 +1,39 @@
+.header{
+    background-color: #12141a;
+    border-bottom: 2px solid #759cff;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header span{
+    font-size: 2rem;
+    color: #4474ed;
+    font-weight: 500;
+}
+
+.header nav{
+    display: flex;
+    gap: 10px;
+}
+
+.header a{
+    text-decoration: none;
+    color: #fff;
+    padding-inline: 0.5rem;
+    font-size: 18px;
+    background-color: #1f222c;
+    border-radius: 7px;
+    padding: 3px 10px;
+    transition: 0.2s;
+}
+
+.header a:hover{
+    background-color: #282d3a;
+    cursor: pointer;
+}
