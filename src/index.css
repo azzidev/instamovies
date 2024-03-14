@@ -10,4 +10,15 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} 
+
+.cards{
+  display: flex;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .cards{
+    flex-direction: column;
+  }
 }
