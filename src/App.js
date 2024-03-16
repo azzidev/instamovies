@@ -12,7 +12,7 @@ function App() {
       <Container>
         <h1>Children</h1>
         <section className="cards">
-          { movies.map((movie) => <Card id={movie.id} key={movie.id}/>) }
+          { movies.map((movie) => <Card id={movie.id} name={movie.name} key={movie.id}/>) }
         </section>
       </Container>
     </>
